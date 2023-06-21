@@ -18,7 +18,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, 'macos-13', 'macos-13-arm64']
         dist: [local, centos-7, ubuntu-18.04]
-        config: [release, assert]
+        config: [release, assert, debug]
 
         exclude:
           - os: macos-13
